@@ -3,6 +3,7 @@ import './App.css';
 
 // Importamos el componente de navegación
 import Navegacion from './componentes/Navegacion';
+import Footer from './componentes/Footer';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         </a>
       </header>
     </div>
+
+    <Footer />
+
 
     </>
   );
